@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <style>
+        .box{
+            height: 600px;
+            width: 400px;
+            border: 2px solid orange;
+        }
+        .box>div{
+            height: 320px;
+        }
+        .box>div:first-child{
+            background-image: url(assets/images/image1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        .box>div:first-child>section{
+            height: 100px;
+            width: 100px;
+            padding-top: 200px;
+        }
+        .box>div:first-child>section>img{
+            width: 100%;
+            border-radius: 100%;
+            border: 2px solid orange;
+            padding: 5px;
+        }
+        .box>div>img{
+            width: 100%;
+        }
+        .box>div:last-child{
+            padding: 20px;
+        }
+        .box>div>button{
+            padding: 5px 30px;
+            background-color: transparent;
+            border: 2px solid orange;
+            border-radius: 10px;
+        }
+        .box>div>button:hover{
+            background-color: orange;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>ASSIGNMENT</h1>
+        <div class="box">
+            <div>
+                <section>
+                    <img src="assets/images/image1.jpg" alt="">
+                </section>
+            </div>
+            <div>
+                <h3>Ms. Priyanka</h3>
+                <p>FULLSTACK DEVELOPMENT</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis tempora sit iste suscipit molestiae saepe, nisi aperiam? Quis id, quia tempore natus reiciendis quaerat magnam itaque rem mollitia facilis tenetur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                <button>Edit</button>
+                <button>View more</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
